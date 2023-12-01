@@ -1,0 +1,73 @@
+:root {
+  --first-color-text: #000;
+  --second-color-text: #4285f4;
+  --button-colour-text: white;
+  --color-white: white;
+  --iris: #4d5ae5;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  line-height: 1.6;
+}
+
+header {
+  background-color: var(--color-white);
+}
+
+UL {
+  list-style: none;
+}
+
+a {
+  text-decoration-line: none;
+}
+
+ul {
+  font-size: x-small;
+}
+
+button {
+  background-color: #e7e9fc;
+  color: #4d5ae5;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+p {
+  font-size: x-small;
+  color: #434455;
+}
+
+button:hover {
+  background-color: #9098e9;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+
+.logo_footer {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+
+.highlight {
+  color: var(--second-color-text);
+}
