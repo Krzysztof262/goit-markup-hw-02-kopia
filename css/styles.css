@@ -10,6 +10,7 @@ body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   line-height: 1.6;
+  background-color: #ffffff;
 }
 
 header {
@@ -30,6 +31,7 @@ ul {
 
 button {
   background-color: #e7e9fc;
+
   color: #4d5ae5;
 }
 
@@ -46,12 +48,33 @@ button:hover {
   background-color: #9098e9;
 }
 
+span {
+  color: #2e2f42;
+}
+
+.list {
+  list-style: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.link {
+  list-style: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
 .logo {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   text-decoration: none;
   text-transform: uppercase;
-  color: black;
+  color: #4d5ae5;
   font-weight: 800;
   line-height: 1.17;
   letter-spacing: 0.03em;
