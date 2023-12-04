@@ -1,3 +1,11 @@
+:root {
+  --first-color-text: #000;
+  --second-color-text: #4285f4;
+  --button-colour-text: white;
+  --color-white: white;
+  --iris: #4d5ae5;
+}
+
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -22,6 +30,16 @@ span {
   color: #2e2f42;
 }
 
+button {
+  background-color: #4d5ae5;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+}
+
 .list {
   font-weight: 500;
   font-size: 16px;
@@ -43,6 +61,11 @@ body {
 }
 
 header {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
 }
 
 .logo_footer {
