@@ -38,6 +38,7 @@ button {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
+  cursor: pointer;
 }
 
 .list {
@@ -85,7 +86,7 @@ p {
   font-size: x-small;
 }
 
-UL {
+ul {
   list-style: none;
 }
 
@@ -100,8 +101,10 @@ button {
 
 a:hover {
   text-decoration: none;
+  color: #404bbf;
 }
 
 button:hover {
-  background-color: #9098e9;
+  background-color: #404bbf;
+  color: #ffffff;
 }
