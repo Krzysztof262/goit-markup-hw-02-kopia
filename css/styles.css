@@ -37,7 +37,7 @@
 }
 
 span {
-  color: #2e2f42;
+  color: #f4f4fd;
 }
 
 button {
@@ -87,7 +87,6 @@ header {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  background-color: #2e2f42;
 }
 
 p {
@@ -102,10 +101,6 @@ ul {
   list-style: none;
 }
 
-a {
-  text-decoration-line: none;
-  color: #434455;
-}
 button {
   background-color: #e7e9fc;
   color: #4d5ae5;
