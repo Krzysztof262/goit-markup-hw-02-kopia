@@ -51,10 +51,6 @@ button:hover {
   color: #ffffff;
 }
 
-address {
-  font-style: normal;
-}
-
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
@@ -89,6 +85,7 @@ p {
 }
 
 a {
+  text-decoration: none;
   color: #404bbf;
 }
 
