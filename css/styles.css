@@ -36,13 +36,13 @@ span {
 }
 
 button {
-  background-color: --iris;
+  background-color: #404bbf;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #ffffff;
+  color: #f4f4fd;
   cursor: pointer;
 }
 
