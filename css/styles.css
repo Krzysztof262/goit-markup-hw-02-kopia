@@ -88,6 +88,10 @@ p {
   text-decoration-color: --color-text;
 }
 
+a {
+  color: #404bbf;
+}
+
 a:hover {
   text-decoration: none;
   color: #404bbf;
@@ -99,6 +103,10 @@ a:hover {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: --first-color-text;
+}
+
+ul {
+  list-style: none;
 }
 
 ul {
