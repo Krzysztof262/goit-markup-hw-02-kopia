@@ -35,6 +35,10 @@ span {
   color: #2e2f42;
 }
 
+.white {
+  color: #f4f4fd;
+}
+
 button {
   background-color: #f4f4fd;
   font-family: "Roboto", sans-serif;
@@ -58,7 +62,7 @@ body {
   background-color: #ffffff;
 }
 
-header {
+.header {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
