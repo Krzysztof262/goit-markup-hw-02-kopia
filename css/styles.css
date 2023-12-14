@@ -93,11 +93,11 @@ a:focus {
   color: --first-color-text;
 }
 
-ul {
+li {
   list-style: none;
 }
 
-/*header {
+header {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
@@ -105,7 +105,7 @@ ul {
   color: #ffffff;
 }
 
-.logo_footer {
+/*.logo_footer {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
