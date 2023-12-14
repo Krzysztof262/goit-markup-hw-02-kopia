@@ -19,16 +19,6 @@
   background-color: #2e2f42"
 }
 
-.logo_footer {
-  font-family: "Raleway", sans-serif;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--iris);
-}
-
 .link {
   text-decoration: none;
 }
@@ -116,4 +106,14 @@ ul {
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
+}
+
+.logo_footer {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--iris);
 }
