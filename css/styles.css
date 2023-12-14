@@ -73,10 +73,7 @@ p {
   text-decoration-color: --color-text;
 }
 
-a {
-  text-decoration: none;
-  color: #404bbf;
-}
+
 
 a:hover {
   text-decoration: none;
@@ -116,4 +113,9 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--iris);
+}
+
+a {
+  text-decoration: none;
+  color: #404bbf;
 }
