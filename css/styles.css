@@ -14,7 +14,7 @@
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--iris);
+  color: #4d5ae5;
   text-decoration: none;
   background-color: #2e2f42"
 }
@@ -36,6 +36,7 @@
 .list {
   font-weight: 500;
   font-size: 16px;
+  font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
@@ -73,13 +74,6 @@ body {
   background-color: #ffffff;
 }
 
-.header {
-  font-size: 56px;
-  line-height: 1.07;
-  text-align: center;
-  letter-spacing: 0.02em;
-  color: #ffffff;
-}
 
 p {
   line-height: 1.5;
@@ -97,6 +91,11 @@ a {
 a:hover {
   text-decoration: none;
   color: #404bbf;
+
+a:focus {
+  color: #404bbf;
+}
+
 }
 
 .header-list {
@@ -111,6 +110,10 @@ ul {
   list-style: none;
 }
 
-ul {
-  list-style: none;
+/*header {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
 }
