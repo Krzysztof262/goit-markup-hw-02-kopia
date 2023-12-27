@@ -75,12 +75,12 @@ p {
 
 
 
-a:hover {
+a:hover{
   text-decoration: none;
   color: #404bbf;
 
-a:focus {
-  color: #404bbf;
+a:focus{
+  background-color: #404bbf;
 }
 
 }
