@@ -30,7 +30,8 @@
   font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: #2e2f42;
+  /*color: #434455;*/
   list-style: none;
   
 }
@@ -81,9 +82,9 @@ a:hover{
   text-decoration: none;
   color: #404bbf;
 
-a:focus{
+/*a:focus{
   background-color: #404bbf;
-}
+}*/
 
 }
 
