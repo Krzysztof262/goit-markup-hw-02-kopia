@@ -16,7 +16,7 @@
   text-transform: uppercase;
   color: #4d5ae5;
   text-decoration: none;
-  background-color: #2e2f42"
+  background-color: #2e2f42;
 }
 
 .link {
@@ -72,7 +72,7 @@ p {
   color: #f4f4fd;
   letter-spacing: 0.02em;
   font-size: 16px;
-  text-decoration-color: --color-text;
+  text-decoration-color: var(--color-text);
 }
 
 a {
@@ -80,9 +80,13 @@ a {
   color: #2e2f42;
 }
 
-a:hover{
+a:hover {
   text-decoration: none;
   color: #404bbf;
+
+a:active {
+  color: #404bbf;
+}
 
 /*a:focus{
   background-color: #404bbf;
