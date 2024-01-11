@@ -1,4 +1,4 @@
-:root {
+ :root {
   --first-color-text: #2e2f42;
   --second-color-text: #4285f4;
   --button-colour-text: white;
@@ -57,7 +57,7 @@ button {
 }
 
 button:hover {
-  background-color: #404bbf;
+  background-color: #4D5AE5;
   color: #ffffff;
 }
 
@@ -107,7 +107,6 @@ a:focus {
 .sect {
   background-color: #2e2f42;
 }
-
 
 
 /*p {
