@@ -68,9 +68,10 @@ body {
   background-color: #ffffff;
 }
 
-a {
+.a {
   text-decoration: none;
-  color: #2e2f42;
+  /*color: #2e2f42;*/
+  color: #434455;
 }
 
 
