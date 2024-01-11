@@ -73,14 +73,15 @@ a {
   color: #2e2f42;
 }
 
+
 a:hover {
   text-decoration: none;
   color: #404bbf;
 }
 
-a:active {
+/*a:active {
   color: #404bbf;
-}
+}*/
 
 a:focus {
   background-color: #404bbf;
