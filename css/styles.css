@@ -88,13 +88,13 @@ a:active {
   color: #404bbf;
 }
 
-/*a:focus{
+a:focus {
   background-color: #404bbf;
-}*/
+}
 
 }
 
-header {
+/*header {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
