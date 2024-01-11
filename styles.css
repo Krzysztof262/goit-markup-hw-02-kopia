@@ -1,4 +1,4 @@
-:root {
+ :root {
   --first-color-text: #2e2f42;
   --second-color-text: #4285f4;
   --button-colour-text: white;
@@ -44,18 +44,20 @@ span {
 }
 
 button {
-  background-color: #f4f4fd;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #4d5ae5;
+  /*color: #4d5ae5;*/
+  color: #ffffff;
+  background-color: #4D5AE5;
+  /*background-color: #f4f4fd;*/
   cursor: pointer;
 }
 
 button:hover {
-  background-color: #404bbf;
+  background-color: #404BBF;
   color: #ffffff;
 }
 
@@ -66,31 +68,63 @@ body {
   background-color: #ffffff;
 }
 
+.a {
+  text-decoration: none;
+  /*color: #2e2f42;*/
+  color: #434455;
+}
 
-p {
+
+a:hover {
+  text-decoration: none;
+  color: #404bbf;
+}
+
+/*a:active {
+  color: #404bbf;
+}*/
+
+a:focus {
+  background-color: #404bbf;
+}
+
+.nagh1 {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.nagh2 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color:  #2e2f42;
+}
+
+
+
+.sect {
+  background-color: #2e2f42;
+}
+
+
+.text {
+  color: #434455;
+}
+
+/*p {
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
   font-size: 16px;
   text-decoration-color: var(--color-text);
-}
-
-a {
-  text-decoration: none;
-  color: #2e2f42;
-}
-
-a:hover {
-  text-decoration: none;
-  color: #404bbf;
-
-/*a:focus{
-  background-color: #404bbf;
 }*/
 
-}
 
-header {
+/*header {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
