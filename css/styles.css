@@ -20,8 +20,11 @@
 }
 
 .link {
-  text-decoration: none;
-  
+  text-decoration: none;  
+}
+
+.text {
+  color: #434455;
 }
 
 .list {
@@ -136,9 +139,7 @@ a:focus {
   background-color: #F4F4FD;
 }
 
-.text {
-  color: #434455;
-}
+
 
 /*p {
   line-height: 1.5;
