@@ -16,7 +16,8 @@
   text-transform: uppercase;
   color: #4d5ae5;
   text-decoration: none;
-  background-color: #2e2f42;
+  /*background-color: #2e2f42;*/
+  *background-color: #E7E9FC;
 }
 
 .link {
@@ -78,9 +79,10 @@ button:focus {
   /*background-color: #f4f4fd;*/
   cursor: pointer;
 }
-.button:hover {
+
+/*.button:hover {
   background-color: #404BBF;
-}
+}*/
 
 .button_p {
   font-family: "Roboto", sans-serif;
@@ -93,10 +95,10 @@ button:focus {
   cursor: pointer;
 }
 
-.button_p:focus {
+/*.button_p:focus {
   background-color: #404BBF;
   color: #ffffff;
-}
+}*/
 
 body {
   font-family: "Roboto", sans-serif;
@@ -112,6 +114,8 @@ body {
 }
 
 
+a:active,
+a:focus,
 a:hover {
   text-decoration: none;
   color: #404bbf;
@@ -121,9 +125,9 @@ a:hover {
   color: #404bbf;
 }*/
 
-a:focus {
+/*a:focus {
   background-color: #404bbf;
-}
+}*/
 
 .nagh_a {
   font-size: 56px;
