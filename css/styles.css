@@ -170,13 +170,12 @@ a:hover {
 }
 
 
-/*p {
-  line-height: 1.5;
-  color: #f4f4fd;
-  letter-spacing: 0.02em;
+.p_portfolio {
   font-size: 16px;
-  text-decoration-color: var(--color-text);
-}*/
+  line-height: 1.5;
+  color: #434455;
+  letter-spacing: 0.02em;
+}
 
 
 /*header {
