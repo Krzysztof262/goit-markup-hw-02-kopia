@@ -95,10 +95,10 @@ button:focus {
   cursor: pointer;
 }
 
-/*.button_p:focus {
-  background-color: #404BBF;
+.button_p:focus {
+  /* background-color: #404BBF; */
   color: #ffffff;
-}*/
+}
 
 body {
   font-family: "Roboto", sans-serif;
