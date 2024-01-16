@@ -1,7 +1,7 @@
  :root {
   --first-color-text: #2e2f42;
-  --second-color-text: #4285f4;
-  --button-colour-text: white;
+  --second-color-text: #404bbf;
+  --button-colour-text: #f4f4fd;
   --color-white: white;
   --iris: #4d5ae5;
   --color-text: #434455;
@@ -14,10 +14,8 @@
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: var(--iris);
   text-decoration: none;
-  /*background-color: #2e2f42;*/
-  background-color: #E7E9FC;
 }
 
 .link {
@@ -25,7 +23,8 @@
 }
 
 .text {
-  color: #434455;
+  color: var(--color-text);
+  font-weight: 400;
 }
 
 .list {
@@ -34,27 +33,26 @@
   font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
-  /* color: #434455; */
+  color: var(--first-color-text); 
   list-style: none;
 }
 
-.list_address {
-  font-weight: 500;
+.list-address {
+  font-weight: 400;
   font-size: 16px;
   font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--color-text);
   list-style: none;
 }
 
 span {
-  color: #2e2f42;
+  color: var(--first-color-text);
 }
 
 .white {
-  color: #f4f4fd;
+  color: var(--button-colour-text);
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
@@ -65,17 +63,15 @@ button {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  /*color: #4d5ae5;*/
-  color: #ffffff;
-  background-color: #4D5AE5;
-  /*background-color: #f4f4fd;*/
+  color: var(--color-white);
+  background-color: var(--iris);
   cursor: pointer;
 }
 
 button:hover,
 button:focus {
-  background-color: #404BBF;
-  color: #ffffff;
+  background-color: var(--second-color-text);
+  color: var(--color-white);
 }
 
 .button {
@@ -84,16 +80,10 @@ button:focus {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  /*color: #4d5ae5;*/
-  color: #ffffff;
-  background-color: #4D5AE5;
-  /*background-color: #f4f4fd;*/
+  color: var(--color-white);
+  background-color: var(--iris);
   cursor: pointer;
 }
-
-/*.button:hover {
-  background-color: #404BBF;
-}*/
 
 .button_p {
   font-family: "Roboto", sans-serif;
@@ -101,54 +91,44 @@ button:focus {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #4d5ae5;
-  background-color: #F4F4FD;
+  color: var(--iris);
+  background-color: var(--button-colour-text);
   cursor: pointer;
 }
 
 .button_p:focus {
-  /* background-color: #404BBF; */
-  color: #ffffff;
+  color: var(--color-white);
 }
 
 body {
   font-family: "Roboto", sans-serif;
-  color: #434455;
+  color: var(--color-text);
   line-height: 1.6;
-  background-color: #ffffff;
+  background-color: var(--color-white);
 }
 
 .a {
   text-decoration: none;
-  /*color: #2e2f42;*/
-  color: #434455;
+  color: var(--color-text);
 }
 
 a {
-  color: #434455;
+  color: var(--color-text);
 }
 
 a:active,
 a:focus,
 a:hover {
   text-decoration: none;
-  color: #404bbf;
+  color: var(--second-color-text);
 }
-
-/*a:active {
-  color: #404bbf;
-}*/
-
-/*a:focus {
-  background-color: #404bbf;
-}*/
 
 .nagh_a {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #ffffff;
+  color: var(--color-white);
 }
 
 .nagh_b {
@@ -156,7 +136,7 @@ a:hover {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color:  #2e2f42;
+  color: var(--first-color-text);
 }
 
 .nagh_c {
@@ -166,13 +146,12 @@ a:hover {
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
-  color:  #2e2f42;
+  color: var(--first-color-text);
 }
 
 
-
 .sect_a {
-  background-color: #2e2f42;
+  background-color: var(--first-color-text);
 }
 
 .sect_b {
@@ -180,24 +159,21 @@ a:hover {
 }
 
 .white_background {
-  background-color: #FFFFFF;
+  background-color: var(--color-white);
 }
 
 
 .p_portfolio {
+  font-weight:400;
   font-size: 16px;
   line-height: 1.5;
-  color: #434455;
+  color: var(--color-text);
   letter-spacing: 0.02em;
 }
 
 
-/*header {
-  font-size: 56px;
-  line-height: 1.07;
-  text-align: center;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
+.footer-back {
+  background-color: var(--first-color-text);
 }
 
 
